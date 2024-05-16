@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About us</title>
+    <link rel="stylesheet" href="styles/about.css" />
+  </head>
+  <body>
+      <nav class="navigation">
+        <img src="img/logo12.png" alt="Logo" class="image-nav" />
+        <ul class="nav-list">
+          <li><a class="link" href="index.html">Home</a></li>
+          <li><a class="link" href="gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="black-overlay"></div>
+    <div id="popup">
+      <p class="form-heading">&nbsp;</p>
+      <div class="contact-text">
+        <h2 class="form-head">Contact us</h2>
+        <p class="form-txt">Please write your message and contact information below. We will respond as soon as possible.</p>
+        <form action="#" method="post" class="forma">
+          <input type="text" id="mail" name="mail" required placeholder="Enter your e-mail here" />
+          <input type="text" id="msg" name="msg" required placeholder="Type your message here!" />
+          <input type="tel" id="phone-number" name="phone-number" required placeholder="Enter your phone number" />
+          <input type="submit" value="Submit" class="submit" />
+        </form>
+      </div>
+      <div class="contact-overlay"></div>
+      <div id="success-message">
+        <svg width="135px" height="135px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15 18L17 20L21 16M11 19H6.2C5.0799 19 4.51984 19 4.09202 18.782C3.71569 18.5903 3.40973 18.2843 3.21799 17.908C3 17.4802 3 16.9201 3 15.8V8.2C3 7.0799 3 6.51984 3.21799 6.09202C3.40973 5.71569 3.71569 5.40973 4.09202 5.21799C4.51984 5 5.0799 5 6.2 5H17.8C18.9201 5 19.4802 5 19.908 5.21799C20.2843 5.40973 20.5903 5.71569 20.782 6.09202C21 6.51984 21 7.0799 21 8.2V12M20.6067 8.26229L15.5499 11.6335C14.2669 12.4888 13.6254 12.9165 12.932 13.0827C12.3192 13.2295 11.6804 13.2295 11.0677 13.0827C10.3743 12.9165 9.73279 12.4888 8.44975 11.6335L3.14746 8.09863" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>      <p>Your message has been successfully sent!</p>
+      <button class="contact-ok">OK</button>
+      </div>
+</div>
+<button id="sticky-button">
+      <svg
+        class="sticky-open"
+        aria-hidden="true"
+        xmlns="http://www.w3.org/2000/svg"
+        width="40"
+        height="40"
+        fill="none"
+        viewBox="0 0 24 24"
+      >
+        <path
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M14.079 6.839a3 3 0 0 0-4.255.1M13 20h1.083A3.916 3.916 0 0 0 18 16.083V9A6 6 0 1 0 6 9v7m7 4v-1a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1Zm-7-4v-6H5a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h1Zm12-6h1a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-1v-6Z"
+        />
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" height="30px" width="40px" role="img" alt="Zatvorite ikonu" class="sticky-close"><path fill-rule="evenodd" clip-rule="evenodd" d="M466.24042,400.4053l272.927-275.99463c6.94586-8.76452,11.13092-20.00501,11.13092-32.20959 s-4.18506-23.42317-11.21857-32.29724l0.08765,0.10955c-8.76453-6.94588-20.005-11.13094-32.20959-11.13094 c-12.20453,0-23.42316,4.18505-32.29724,11.21858l0.10956-0.08765L401.84311,336.008L125.84851,60.0134 c-8.76452-6.94588-20.00501-11.13094-32.2096-11.13094s-23.42316,4.18506-32.29724,11.21858l0.10955-0.08765 C54.50535,68.77792,50.32029,80.01842,50.32029,92.223s4.18505,23.42317,11.21858,32.29724l-0.08764-0.10956l275.9946,275.99463 L61.45122,673.33234c-6.94588,8.76453-11.13094,20.005-11.13094,32.20959s4.18506,23.42316,11.21858,32.29724l-0.08765-0.1095 c8.19483,7.64703,19.2162,12.33606,31.33314,12.33606c0.83263,0,1.68717-0.02191,2.49789-0.06573h-0.10957 c0.54779,0.02191,1.20512,0.04382,1.86246,0.04382c11.32813,0,21.5388-4.71094,28.79144-12.29224l0.0219-0.02191 l275.99463-272.92703l272.92703,272.92703c7.2746,7.58136,17.48523,12.31415,28.81335,12.31415 c0.65735,0,1.29279-0.02191,1.95013-0.04382h-0.08765c0.72308,0.04382,1.55573,0.06573,2.38831,0.06573 c12.11694,0,23.16022-4.68903,31.37695-12.35797l-0.02185,0.02191c6.94586-8.76447,11.13092-20.005,11.13092-32.20959 c0-12.20453-4.18506-23.42316-11.21857-32.29724l0.08765,0.10956L466.24042,400.4053z"></path></svg>
+</button>
+<h2 class="about-us">ABOUT US</h2>
+<div class="first-part">
+  <img src="img/parti1.jpg">
+  <div class="first-part-text">
+    <p>We are a passionate team that believes life is best experienced
+    through unforgettable adventures in nature and exciting music that
+    gives us rhythm and energy. Our mission is to connect adventure and
+    music enthusiasts around the world, allowing them to explore all the
+    charms of Montenegro's nature and experience the best world music
+    events, all in one place. Our platform offers a wide range of
+    activities, from adrenaline-fueled adventures such as hiking,
+    kayaking, and diving, to relaxed moments in nature with picnics or
+    camping under the starry sky. With carefully selected events and
+    locations, we guarantee unforgettable experiences for all adventurers.
+    In addition, music lovers can find all the information about the
+    latest concerts, festivals, and parties, as well as the opportunity to
+    explore the local music scene and discover new talents. Whether you
+    prefer rock, electronic music, jazz, or classical melodies, you will
+    find something to suit your taste with us.</p>
+  </div>
+</div>
+<div class="second-part">
+  <div class="second-part-text">
+    <p>
+      At the heart of our vision is a deep appreciation for the natural beauty of Montenegro and its vibrant music culture. From the majestic peaks of the Durmitor mountains to the serene beaches of the Adriatic coast, Montenegro offers a diverse landscape perfect for every type of explorer. Simultaneously, its eclectic music scene, featuring everything from electronic music festivals to intimate jazz performances, provides the perfect soundtrack to your adventures. We are committed to promoting sustainable tourism practices and supporting the local music industry, ensuring that both the pristine beauty of our natural surroundings and the richness of our musical heritage are preserved for future generations to enjoy</p>
+  </div>
+  <img src="img/penjanje.jpg">
+</div>
+<footer><img src="img/logo12.png">
+  <p>&copy; 2024 EVENTS™ ALL RIGHTS RESERVED</p> 
+  <div class="follow-us">
+    <p class="follow-us-text">Find us on:</p>
+    <svg width="24px" height="24px" viewBox="0 -0.5 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5 5H9.5C7.29086 5 5.5 6.79086 5.5 9V15C5.5 17.2091 7.29086 19 9.5 19H15.5C17.7091 19 19.5 17.2091 19.5 15V9C19.5 6.79086 17.7091 5 15.5 5Z" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 15C10.8431 15 9.5 13.6569 9.5 12C9.5 10.3431 10.8431 9 12.5 9C14.1569 9 15.5 10.3431 15.5 12C15.5 12.7956 15.1839 13.5587 14.6213 14.1213C14.0587 14.6839 13.2956 15 12.5 15Z" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <rect x="15.5" y="9" width="2" height="2" rx="1" transform="rotate(-90 15.5 9)" fill="#ffffff"></rect> <rect x="16" y="8.5" width="1" height="1" rx="0.5" transform="rotate(-90 16 8.5)" stroke="#ffffff" stroke-linecap="round"></rect> </g></svg>
+    <a href="https://github.com/prodanovicaleksej/events-project"><svg width="24px" height="24px" viewBox="0 0 48 48" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" fill="#000000" stroke="#000000" stroke-width="2.112"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs><style>.cls-1{fill:none;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;fill-rule:evenodd;}</style></defs><path class="cls-1" d="M24,2.5a21.5,21.5,0,0,0-6.8,41.9c1.08.2,1.47-.46,1.47-1s0-1.86,0-3.65c-6,1.3-7.24-2.88-7.24-2.88A5.7,5.7,0,0,0,9,33.68c-1.95-1.33.15-1.31.15-1.31a4.52,4.52,0,0,1,3.29,2.22c1.92,3.29,5,2.34,6.26,1.79a4.61,4.61,0,0,1,1.37-2.88c-4.78-.54-9.8-2.38-9.8-10.62a8.29,8.29,0,0,1,2.22-5.77,7.68,7.68,0,0,1,.21-5.69s1.8-.58,5.91,2.2a20.46,20.46,0,0,1,10.76,0c4.11-2.78,5.91-2.2,5.91-2.2a7.74,7.74,0,0,1,.21,5.69,8.28,8.28,0,0,1,2.21,5.77c0,8.26-5,10.07-9.81,10.61a5.12,5.12,0,0,1,1.46,4c0,2.87,0,5.19,0,5.9s.39,1.24,1.48,1A21.5,21.5,0,0,0,24,2.5"></path></g></svg></a>
+  </div>
+  </footer>
+    
+    <script src="about.js"></script>
+</body>
+</html>
